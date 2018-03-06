@@ -10,6 +10,26 @@
 		0DEFE062204E11A9007932D2 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */; };
 		0DEFE067204E11A9007932D2 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE066204E11A9007932D2 /* SwiftExtensionsTests.swift */; };
 		0DEFE069204E11A9007932D2 /* SwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DEFE087204E11E8007932D2 /* CGColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE072204E11E6007932D2 /* CGColor+.swift */; };
+		0DEFE088204E11E8007932D2 /* UITextView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE073204E11E7007932D2 /* UITextView+.swift */; };
+		0DEFE089204E11E8007932D2 /* UIVew+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE074204E11E7007932D2 /* UIVew+.swift */; };
+		0DEFE08A204E11E8007932D2 /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE075204E11E7007932D2 /* NSObject+.swift */; };
+		0DEFE08B204E11E8007932D2 /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE076204E11E7007932D2 /* DateFormatter+.swift */; };
+		0DEFE08C204E11E8007932D2 /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE077204E11E7007932D2 /* CGFloat+.swift */; };
+		0DEFE08D204E11E8007932D2 /* UUID+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE078204E11E7007932D2 /* UUID+.swift */; };
+		0DEFE08E204E11E8007932D2 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE079204E11E7007932D2 /* UITableView+.swift */; };
+		0DEFE08F204E11E8007932D2 /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE07A204E11E7007932D2 /* StoryboardInstantiatable.swift */; };
+		0DEFE090204E11E8007932D2 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE07B204E11E7007932D2 /* Double+.swift */; };
+		0DEFE091204E11E8007932D2 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE07C204E11E7007932D2 /* Date+.swift */; };
+		0DEFE093204E11E8007932D2 /* Int+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE07E204E11E7007932D2 /* Int+.swift */; };
+		0DEFE094204E11E8007932D2 /* Bool+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE07F204E11E8007932D2 /* Bool+.swift */; };
+		0DEFE095204E11E8007932D2 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE080204E11E8007932D2 /* DesignableLabel.swift */; };
+		0DEFE096204E11E8007932D2 /* Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE081204E11E8007932D2 /* Operator+.swift */; };
+		0DEFE097204E11E8007932D2 /* NibDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE082204E11E8007932D2 /* NibDesignable.swift */; };
+		0DEFE098204E11E8007932D2 /* NibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE083204E11E8007932D2 /* NibInstantiatable.swift */; };
+		0DEFE099204E11E8007932D2 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE084204E11E8007932D2 /* String+.swift */; };
+		0DEFE09A204E11E8007932D2 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE085204E11E8007932D2 /* UICollectionView+.swift */; };
+		0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE086204E11E8007932D2 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +49,26 @@
 		0DEFE061204E11A9007932D2 /* SwiftExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEFE066204E11A9007932D2 /* SwiftExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionsTests.swift; sourceTree = "<group>"; };
 		0DEFE068204E11A9007932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEFE072204E11E6007932D2 /* CGColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+.swift"; sourceTree = "<group>"; };
+		0DEFE073204E11E7007932D2 /* UITextView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+.swift"; sourceTree = "<group>"; };
+		0DEFE074204E11E7007932D2 /* UIVew+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVew+.swift"; sourceTree = "<group>"; };
+		0DEFE075204E11E7007932D2 /* NSObject+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
+		0DEFE076204E11E7007932D2 /* DateFormatter+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+.swift"; sourceTree = "<group>"; };
+		0DEFE077204E11E7007932D2 /* CGFloat+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
+		0DEFE078204E11E7007932D2 /* UUID+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UUID+.swift"; sourceTree = "<group>"; };
+		0DEFE079204E11E7007932D2 /* UITableView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		0DEFE07A204E11E7007932D2 /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
+		0DEFE07B204E11E7007932D2 /* Double+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		0DEFE07C204E11E7007932D2 /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		0DEFE07E204E11E7007932D2 /* Int+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+.swift"; sourceTree = "<group>"; };
+		0DEFE07F204E11E8007932D2 /* Bool+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+.swift"; sourceTree = "<group>"; };
+		0DEFE080204E11E8007932D2 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		0DEFE081204E11E8007932D2 /* Operator+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+.swift"; sourceTree = "<group>"; };
+		0DEFE082204E11E8007932D2 /* NibDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibDesignable.swift; sourceTree = "<group>"; };
+		0DEFE083204E11E8007932D2 /* NibInstantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibInstantiatable.swift; sourceTree = "<group>"; };
+		0DEFE084204E11E8007932D2 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		0DEFE085204E11E8007932D2 /* UICollectionView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		0DEFE086204E11E8007932D2 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +111,26 @@
 		0DEFE05A204E11A9007932D2 /* SwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				0DEFE07F204E11E8007932D2 /* Bool+.swift */,
+				0DEFE072204E11E6007932D2 /* CGColor+.swift */,
+				0DEFE077204E11E7007932D2 /* CGFloat+.swift */,
+				0DEFE07C204E11E7007932D2 /* Date+.swift */,
+				0DEFE076204E11E7007932D2 /* DateFormatter+.swift */,
+				0DEFE080204E11E8007932D2 /* DesignableLabel.swift */,
+				0DEFE07B204E11E7007932D2 /* Double+.swift */,
+				0DEFE07E204E11E7007932D2 /* Int+.swift */,
+				0DEFE082204E11E8007932D2 /* NibDesignable.swift */,
+				0DEFE083204E11E8007932D2 /* NibInstantiatable.swift */,
+				0DEFE075204E11E7007932D2 /* NSObject+.swift */,
+				0DEFE081204E11E8007932D2 /* Operator+.swift */,
+				0DEFE07A204E11E7007932D2 /* StoryboardInstantiatable.swift */,
+				0DEFE084204E11E8007932D2 /* String+.swift */,
+				0DEFE085204E11E8007932D2 /* UICollectionView+.swift */,
+				0DEFE086204E11E8007932D2 /* UIColor+.swift */,
+				0DEFE079204E11E7007932D2 /* UITableView+.swift */,
+				0DEFE073204E11E7007932D2 /* UITextView+.swift */,
+				0DEFE074204E11E7007932D2 /* UIVew+.swift */,
+				0DEFE078204E11E7007932D2 /* UUID+.swift */,
 				0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */,
 				0DEFE05C204E11A9007932D2 /* Info.plist */,
 			);
@@ -148,6 +208,7 @@
 				TargetAttributes = {
 					0DEFE057204E11A9007932D2 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					0DEFE060204E11A9007932D2 = {
@@ -196,6 +257,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEFE098204E11E8007932D2 /* NibInstantiatable.swift in Sources */,
+				0DEFE091204E11E8007932D2 /* Date+.swift in Sources */,
+				0DEFE096204E11E8007932D2 /* Operator+.swift in Sources */,
+				0DEFE089204E11E8007932D2 /* UIVew+.swift in Sources */,
+				0DEFE093204E11E8007932D2 /* Int+.swift in Sources */,
+				0DEFE099204E11E8007932D2 /* String+.swift in Sources */,
+				0DEFE08E204E11E8007932D2 /* UITableView+.swift in Sources */,
+				0DEFE08A204E11E8007932D2 /* NSObject+.swift in Sources */,
+				0DEFE08B204E11E8007932D2 /* DateFormatter+.swift in Sources */,
+				0DEFE090204E11E8007932D2 /* Double+.swift in Sources */,
+				0DEFE094204E11E8007932D2 /* Bool+.swift in Sources */,
+				0DEFE08D204E11E8007932D2 /* UUID+.swift in Sources */,
+				0DEFE087204E11E8007932D2 /* CGColor+.swift in Sources */,
+				0DEFE097204E11E8007932D2 /* NibDesignable.swift in Sources */,
+				0DEFE09A204E11E8007932D2 /* UICollectionView+.swift in Sources */,
+				0DEFE095204E11E8007932D2 /* DesignableLabel.swift in Sources */,
+				0DEFE08F204E11E8007932D2 /* StoryboardInstantiatable.swift in Sources */,
+				0DEFE08C204E11E8007932D2 /* CGFloat+.swift in Sources */,
+				0DEFE088204E11E8007932D2 /* UITextView+.swift in Sources */,
+				0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +415,7 @@
 		0DEFE06D204E11A9007932D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.atsushi130.SwiftExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +438,7 @@
 		0DEFE06E204E11A9007932D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +460,7 @@
 		0DEFE070204E11A9007932D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SYG4Q97TY;
 				INFOPLIST_FILE = SwiftExtensionsTests/Info.plist;
@@ -390,6 +475,7 @@
 		0DEFE071204E11A9007932D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SYG4Q97TY;
 				INFOPLIST_FILE = SwiftExtensionsTests/Info.plist;
