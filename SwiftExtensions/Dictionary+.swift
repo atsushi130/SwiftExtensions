@@ -9,9 +9,12 @@
 import Foundation
 
 extension Dictionary {
-    mutating func merge<S: Sequence>(contentsOf other: S) where S.Iterator.Element == (key: Key, value: Value) {
-        other.forEach { key, value in
-            self[key] = value
+    
+    static func + (lhs: Dictionary, rhs: Dictionary) -> Dictionary {
+        var dictionary = lhs
+        rhs.forEach { element in
+            dictionary[element.key] = element.value
         }
+        return dictionary
     }
 }
