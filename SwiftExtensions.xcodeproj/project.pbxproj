@@ -30,6 +30,7 @@
 		0DEFE099204E11E8007932D2 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE084204E11E8007932D2 /* String+.swift */; };
 		0DEFE09A204E11E8007932D2 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE085204E11E8007932D2 /* UICollectionView+.swift */; };
 		0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE086204E11E8007932D2 /* UIColor+.swift */; };
+		0DEFE0A620540F31007932D2 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE0A520540F31007932D2 /* Dictionary+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0DEFE084204E11E8007932D2 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		0DEFE085204E11E8007932D2 /* UICollectionView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 		0DEFE086204E11E8007932D2 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		0DEFE0A520540F31007932D2 /* Dictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				0DEFE078204E11E7007932D2 /* UUID+.swift */,
 				0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */,
 				0DEFE05C204E11A9007932D2 /* Info.plist */,
+				0DEFE0A520540F31007932D2 /* Dictionary+.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				0DEFE08B204E11E8007932D2 /* DateFormatter+.swift in Sources */,
 				0DEFE090204E11E8007932D2 /* Double+.swift in Sources */,
 				0DEFE094204E11E8007932D2 /* Bool+.swift in Sources */,
+				0DEFE0A620540F31007932D2 /* Dictionary+.swift in Sources */,
 				0DEFE08D204E11E8007932D2 /* UUID+.swift in Sources */,
 				0DEFE087204E11E8007932D2 /* CGColor+.swift in Sources */,
 				0DEFE097204E11E8007932D2 /* NibDesignable.swift in Sources */,
