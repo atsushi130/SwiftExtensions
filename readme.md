@@ -25,6 +25,7 @@ github "atsushi130/SwiftExtensions"
 - [CGFloat](#cgfloat)
 - [String](#string)
 - [Bool](#bool)
+- [Dictionary](#dictionary)
 - [Date](#date)
 - [DateFormatter](#dateformatter)
 - [CGColor](#cgcolor)
@@ -99,6 +100,12 @@ password.isMatch(pattern: "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}
 toInt
 ```swift
 print(true.toInt) // 1
+```
+
+### Dictionary
+operator +
+```swift
+["key1": "value1"] + ["key2": "value2"] // ["key1": "value1", "key2": "vaule2"]
 ```
 
 ### Date
