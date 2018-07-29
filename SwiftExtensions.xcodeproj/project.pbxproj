@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA105A8210D93F4005819D3 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA105A7210D93F4005819D3 /* CaseIterable.swift */; };
 		0DEFE062204E11A9007932D2 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */; };
 		0DEFE067204E11A9007932D2 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE066204E11A9007932D2 /* SwiftExtensionsTests.swift */; };
 		0DEFE069204E11A9007932D2 /* SwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DA105A7210D93F4005819D3 /* CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterable.swift; sourceTree = "<group>"; };
 		0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftExtensions.h; sourceTree = "<group>"; };
 		0DEFE05C204E11A9007932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */,
 				0DEFE05C204E11A9007932D2 /* Info.plist */,
 				0DEFE0A520540F31007932D2 /* Dictionary+.swift */,
+				0DA105A7210D93F4005819D3 /* CaseIterable.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				0DEFE08B204E11E8007932D2 /* DateFormatter+.swift in Sources */,
 				0DEFE090204E11E8007932D2 /* Double+.swift in Sources */,
 				0DEFE094204E11E8007932D2 /* Bool+.swift in Sources */,
+				0DA105A8210D93F4005819D3 /* CaseIterable.swift in Sources */,
 				0DEFE0A620540F31007932D2 /* Dictionary+.swift in Sources */,
 				0DEFE08D204E11E8007932D2 /* UUID+.swift in Sources */,
 				0DEFE087204E11E8007932D2 /* CGColor+.swift in Sources */,
