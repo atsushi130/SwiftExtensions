@@ -37,6 +37,7 @@ github "atsushi130/SwiftExtensions"
 - [UUID](#uuid)
 - [NibDesignable](#nibdesignable)
 - [NibInstantiatable](#nibinstantiatable)
+- [CaseIterable](#caseiterable)
 
 ### NSObject
 Get class name.
@@ -208,6 +209,16 @@ Last step, set its class as custom view (ex: ReactiveView) in storyboard.
 ```swift
 final class CustomView: NibInstantiatable { ... }
 let customView = CustomView.instantiate() // create instance from CustomView.Xib
+```
+
+### CaseIterable
+```swift
+enum License: CaseIterable {
+    case free
+    case enterprise
+}
+
+print(License.allCases) // [License.free, License.enterprise]
 ```
 
 ## License
