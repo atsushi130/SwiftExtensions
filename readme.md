@@ -26,6 +26,7 @@ github "atsushi130/SwiftExtensions"
 - [String](#string)
 - [Bool](#bool)
 - [Dictionary](#dictionary)
+- [Array](#array)
 - [Date](#date)
 - [DateFormatter](#dateformatter)
 - [CGColor](#cgcolor)
@@ -107,6 +108,13 @@ print(true.toInt) // 1
 operator +
 ```swift
 ["key1": "value1"] + ["key2": "value2"] // ["key1": "value1", "key2": "vaule2"]
+```
+
+### Array
+Nullable element
+```swift
+let array = [1, 2, 3]
+array[ifAny: 4] // .none
 ```
 
 ### Date
