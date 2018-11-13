@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D170A9A219B1C7600E047BA /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D170A99219B1C7600E047BA /* UIAlertController+.swift */; };
 		0D57328521317F5800E428DA /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57328421317F5800E428DA /* Array+.swift */; };
 		0DA105A8210D93F4005819D3 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA105A7210D93F4005819D3 /* CaseIterable.swift */; };
 		0DEFE062204E11A9007932D2 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D170A99219B1C7600E047BA /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		0D57328421317F5800E428DA /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
 		0DA105A7210D93F4005819D3 /* CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterable.swift; sourceTree = "<group>"; };
 		0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				0DEFE0A520540F31007932D2 /* Dictionary+.swift */,
 				0DA105A7210D93F4005819D3 /* CaseIterable.swift */,
 				0D57328421317F5800E428DA /* Array+.swift */,
+				0D170A99219B1C7600E047BA /* UIAlertController+.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				0DEFE093204E11E8007932D2 /* Int+.swift in Sources */,
 				0DEFE099204E11E8007932D2 /* String+.swift in Sources */,
 				0DEFE08E204E11E8007932D2 /* UITableView+.swift in Sources */,
+				0D170A9A219B1C7600E047BA /* UIAlertController+.swift in Sources */,
 				0DEFE08A204E11E8007932D2 /* NSObject+.swift in Sources */,
 				0DEFE08B204E11E8007932D2 /* DateFormatter+.swift in Sources */,
 				0DEFE090204E11E8007932D2 /* Double+.swift in Sources */,
