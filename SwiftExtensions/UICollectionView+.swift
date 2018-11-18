@@ -14,12 +14,12 @@ public extension UICollectionView {
     // MARK: - RegisterNib
     public func register<T: UICollectionViewCell>(cellType: T.Type, bundle: Bundle = Bundle(for: T.self)) {
         let className = cellType.className
-        let nib       = UINib(nibName: className, bundle: nil)
+        let nib       = UINib(nibName: className, bundle: bundle)
         self.register(nib, forCellWithReuseIdentifier: className)
     }
     
     public func register<T: UICollectionViewCell>(cellTypes: T.Type..., bundle: Bundle = Bundle(for: T.self)) {
-        cellTypes.forEach { self.register(cellType: $0) }
+        cellTypes.forEach { self.register(cellType: $0, bundle: bundle) }
     }
     
     // MARK: - Register Header View
