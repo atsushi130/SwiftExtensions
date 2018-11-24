@@ -10,6 +10,7 @@
 		0D170A9A219B1C7600E047BA /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D170A99219B1C7600E047BA /* UIAlertController+.swift */; };
 		0D57328521317F5800E428DA /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57328421317F5800E428DA /* Array+.swift */; };
 		0DA105A8210D93F4005819D3 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA105A7210D93F4005819D3 /* CaseIterable.swift */; };
+		0DEC143621A9322D0022B7AC /* DispatchSemaphore+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC143521A9322D0022B7AC /* DispatchSemaphore+.swift */; };
 		0DEFE062204E11A9007932D2 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */; };
 		0DEFE067204E11A9007932D2 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE066204E11A9007932D2 /* SwiftExtensionsTests.swift */; };
 		0DEFE069204E11A9007932D2 /* SwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +51,7 @@
 		0D170A99219B1C7600E047BA /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		0D57328421317F5800E428DA /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
 		0DA105A7210D93F4005819D3 /* CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterable.swift; sourceTree = "<group>"; };
+		0DEC143521A9322D0022B7AC /* DispatchSemaphore+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchSemaphore+.swift"; sourceTree = "<group>"; };
 		0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEFE05B204E11A9007932D2 /* SwiftExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftExtensions.h; sourceTree = "<group>"; };
 		0DEFE05C204E11A9007932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				0DA105A7210D93F4005819D3 /* CaseIterable.swift */,
 				0D57328421317F5800E428DA /* Array+.swift */,
 				0D170A99219B1C7600E047BA /* UIAlertController+.swift */,
+				0DEC143521A9322D0022B7AC /* DispatchSemaphore+.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEC143621A9322D0022B7AC /* DispatchSemaphore+.swift in Sources */,
 				0DEFE098204E11E8007932D2 /* NibInstantiatable.swift in Sources */,
 				0DEFE091204E11E8007932D2 /* Date+.swift in Sources */,
 				0D57328521317F5800E428DA /* Array+.swift in Sources */,
