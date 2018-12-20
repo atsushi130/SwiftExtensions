@@ -9,6 +9,11 @@
 import Foundation
 
 public extension String {
+    
+    public var attributed: NSMutableAttributedString {
+        return NSMutableAttributedString(string: self)
+    }
+    
     public func toDate(by format: String = "yyyy/MM/dd HH:mm:ss", locale: Locale = Locale.current) -> Date? {
         return DateFormatter.from(locale: locale, format: format).date(from: self)
     }
