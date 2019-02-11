@@ -88,6 +88,11 @@ let number = 1.5.cgFloat
 The same as String extensions.
 
 ### String
+attributed
+```swift
+"string".attributed
+```
+
 toDate
 ```swift
 "2018/01/01 00:00:00".toDate()
