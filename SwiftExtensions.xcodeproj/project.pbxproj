@@ -10,6 +10,7 @@
 		0D170A9A219B1C7600E047BA /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D170A99219B1C7600E047BA /* UIAlertController+.swift */; };
 		0D57328521317F5800E428DA /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57328421317F5800E428DA /* Array+.swift */; };
 		0DDEE3BE2211631200194AEC /* JSONDecoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDEE3BD2211631200194AEC /* JSONDecoder+.swift */; };
+		0DDEE3F62222897A00194AEC /* StringDecodableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDEE3F52222897A00194AEC /* StringDecodableBox.swift */; };
 		0DEC143621A9322D0022B7AC /* DispatchSemaphore+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC143521A9322D0022B7AC /* DispatchSemaphore+.swift */; };
 		0DEC143821A9325C0022B7AC /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC143721A9325C0022B7AC /* DispatchQueue+.swift */; };
 		0DEFE062204E11A9007932D2 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */; };
@@ -52,6 +53,7 @@
 		0D170A99219B1C7600E047BA /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		0D57328421317F5800E428DA /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
 		0DDEE3BD2211631200194AEC /* JSONDecoder+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+.swift"; sourceTree = "<group>"; };
+		0DDEE3F52222897A00194AEC /* StringDecodableBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDecodableBox.swift; sourceTree = "<group>"; };
 		0DEC143521A9322D0022B7AC /* DispatchSemaphore+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchSemaphore+.swift"; sourceTree = "<group>"; };
 		0DEC143721A9325C0022B7AC /* DispatchQueue+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+.swift"; sourceTree = "<group>"; };
 		0DEFE058204E11A9007932D2 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				0DEC143521A9322D0022B7AC /* DispatchSemaphore+.swift */,
 				0DEC143721A9325C0022B7AC /* DispatchQueue+.swift */,
 				0DDEE3BD2211631200194AEC /* JSONDecoder+.swift */,
+				0DDEE3F52222897A00194AEC /* StringDecodableBox.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				0DDEE3BE2211631200194AEC /* JSONDecoder+.swift in Sources */,
 				0DEFE08E204E11E8007932D2 /* UITableView+.swift in Sources */,
 				0D170A9A219B1C7600E047BA /* UIAlertController+.swift in Sources */,
+				0DDEE3F62222897A00194AEC /* StringDecodableBox.swift in Sources */,
 				0DEFE08A204E11E8007932D2 /* NSObject+.swift in Sources */,
 				0DEFE08B204E11E8007932D2 /* DateFormatter+.swift in Sources */,
 				0DEFE090204E11E8007932D2 /* Double+.swift in Sources */,
