@@ -17,3 +17,19 @@ extension Array {
         }
     }
 }
+
+extension Array where Element: Comparable {
+    public func contains(_ element: Element, using algorithm: SearchAlgorithm) -> Bool {
+        switch algorithm {
+        case .linearSearch:
+            return self.contains(element)
+        case .binarySearch:
+            return binarySearch(self, target: element, range: 0..<self.count)
+        }
+    }
+}
+
+public enum SearchAlgorithm {
+    case linearSearch
+    case binarySearch
+}
