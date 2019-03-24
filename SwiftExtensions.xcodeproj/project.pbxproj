@@ -38,6 +38,7 @@
 		0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE086204E11E8007932D2 /* UIColor+.swift */; };
 		0DEFE0A620540F31007932D2 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE0A520540F31007932D2 /* Dictionary+.swift */; };
 		D7BA17FC15FD0DC80DCC6234 /* JSONEncoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA179B18C80BC573DA1B05 /* JSONEncoder+.swift */; };
+		D7BA1FA0C0B48F4779603EC5 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA1B7CFAE0224EF650BCB6 /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		0DEFE086204E11E8007932D2 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		0DEFE0A520540F31007932D2 /* Dictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+.swift"; sourceTree = "<group>"; };
 		D7BA179B18C80BC573DA1B05 /* JSONEncoder+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+.swift"; sourceTree = "<group>"; };
+		D7BA1B7CFAE0224EF650BCB6 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				0DDEE3BD2211631200194AEC /* JSONDecoder+.swift */,
 				0DDEE3F52222897A00194AEC /* StringDecodableBox.swift */,
 				D7BA179B18C80BC573DA1B05 /* JSONEncoder+.swift */,
+				D7BA1B7CFAE0224EF650BCB6 /* BinarySearch.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				0DEFE088204E11E8007932D2 /* UITextView+.swift in Sources */,
 				0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */,
 				D7BA17FC15FD0DC80DCC6234 /* JSONEncoder+.swift in Sources */,
+				D7BA1FA0C0B48F4779603EC5 /* BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
