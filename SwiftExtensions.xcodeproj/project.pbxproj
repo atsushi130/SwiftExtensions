@@ -37,6 +37,7 @@
 		0DEFE09A204E11E8007932D2 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE085204E11E8007932D2 /* UICollectionView+.swift */; };
 		0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE086204E11E8007932D2 /* UIColor+.swift */; };
 		0DEFE0A620540F31007932D2 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE0A520540F31007932D2 /* Dictionary+.swift */; };
+		D7BA17FC15FD0DC80DCC6234 /* JSONEncoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA179B18C80BC573DA1B05 /* JSONEncoder+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		0DEFE085204E11E8007932D2 /* UICollectionView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 		0DEFE086204E11E8007932D2 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		0DEFE0A520540F31007932D2 /* Dictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+.swift"; sourceTree = "<group>"; };
+		D7BA179B18C80BC573DA1B05 /* JSONEncoder+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				0DEC143721A9325C0022B7AC /* DispatchQueue+.swift */,
 				0DDEE3BD2211631200194AEC /* JSONDecoder+.swift */,
 				0DDEE3F52222897A00194AEC /* StringDecodableBox.swift */,
+				D7BA179B18C80BC573DA1B05 /* JSONEncoder+.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				0DEFE08C204E11E8007932D2 /* CGFloat+.swift in Sources */,
 				0DEFE088204E11E8007932D2 /* UITextView+.swift in Sources */,
 				0DEFE09B204E11E8007932D2 /* UIColor+.swift in Sources */,
+				D7BA17FC15FD0DC80DCC6234 /* JSONEncoder+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
