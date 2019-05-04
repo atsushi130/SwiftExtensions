@@ -9,7 +9,7 @@
 import Foundation
 
 public extension Date {
-    public func toString(by format: String = "yyyy/MM/dd HH:mm:ss", locale: Locale = Locale.current) -> String {
+    func toString(by format: String = "yyyy/MM/dd HH:mm:ss", locale: Locale = Locale.current) -> String {
         return DateFormatter.from(locale: locale, format: format).string(from: self)
     }
 }

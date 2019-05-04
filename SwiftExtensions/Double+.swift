@@ -10,23 +10,23 @@ import Foundation
 
 public extension Double {
     
-    public var half: Double {
+    var half: Double {
         return self / 2.0
     }
     
-    public var floor: Double {
+    var floor: Double {
         return Foundation.floor(self)
     }
     
-    public var ceil: Double {
+    var ceil: Double {
         return Foundation.ceil(self)
     }
     
-    public var round: Double {
+    var round: Double {
         return Foundation.round(self)
     }
     
-    public var cgFloat: CGFloat {
+    var cgFloat: CGFloat {
         return CGFloat(self)
     }
 }

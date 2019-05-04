@@ -10,12 +10,12 @@ import UIKit
 
 public extension UIView {
     
-    public var _eachSafeAreaInsets: UIEdgeInsets {
+    var _eachSafeAreaInsets: UIEdgeInsets {
         guard #available(iOS 11.0, *) else { return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0) }
         return self.safeAreaInsets
     }
     
-    public func fillSuperview() {
+    func fillSuperview() {
         guard let superview = self.superview else { return }
         self.translatesAutoresizingMaskIntoConstraints = superview.translatesAutoresizingMaskIntoConstraints
         if self.translatesAutoresizingMaskIntoConstraints {

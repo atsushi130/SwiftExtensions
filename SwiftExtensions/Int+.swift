@@ -9,8 +9,7 @@
 import Foundation
 
 public extension Int {
-    
-    public var half: Double {
+    var half: Double {
         return Double(self) / 2.0
     }
 }
