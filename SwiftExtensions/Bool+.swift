@@ -9,5 +9,5 @@
 import Foundation
 
 public extension Bool {
-    public var toInt: Int { return self ? 1 : 0 }
+    var toInt: Int { return self ? 1 : 0 }
 }

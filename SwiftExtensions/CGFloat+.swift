@@ -10,19 +10,19 @@ import Foundation
 
 public extension CGFloat {
     
-    public var half: CGFloat {
+    var half: CGFloat {
         return self / 2.0
     }
     
-    public var floor: CGFloat {
+    var floor: CGFloat {
         return Foundation.floor(self)
     }
     
-    public var ceil: CGFloat {
+    var ceil: CGFloat {
         return Foundation.ceil(self)
     }
     
-    public var round: CGFloat {
+    var round: CGFloat {
         return Foundation.round(self)
     }
 }

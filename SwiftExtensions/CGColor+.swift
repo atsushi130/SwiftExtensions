@@ -9,7 +9,7 @@
 import UIKit
 
 public extension CGColor {
-    public var uiColor: UIColor {
+    var uiColor: UIColor {
         return UIColor(cgColor: self)
     }
 }

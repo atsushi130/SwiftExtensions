@@ -9,7 +9,7 @@
 import Foundation
 
 public extension UUID {
-    public static func generate() -> String {
+    static func generate() -> String {
         return UUID().uuidString
     }
 }
